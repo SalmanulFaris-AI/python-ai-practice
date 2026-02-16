@@ -19,5 +19,5 @@ class Rectangle(Shape):
 c=Circle(5)
 r=Rectangle(10,5)
 print("Circle Area:",c.area())
-print("Circle Area:",r.area())
+print("Rectangle Area:",r.area())
 
