@@ -1,0 +1,7 @@
+--  SHOW PRODUCTS > AVERAGE PRICE OF ALL PRODUCTS 
+
+SELECT product_name FROM orders WHERE price > (SELECT AVG(price)FROM orders);
+
+-- SHOW CUSTOMERS HAVING ATLEAST ONE ORDER
+
+SELECT name FROM customers WHERE id IN(SELECT customer_id FROM orders);	`
