@@ -44,7 +44,7 @@ print("Zeros Array:\n",z)
 print("Element at row 2,column 3 =",b[2,3])
 print("Second column:\n",b[:,2])
 
-## Markdown
+## Three Dimensional Array Creation
 
 import numpy as np
 
