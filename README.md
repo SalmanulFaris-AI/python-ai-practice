@@ -43,3 +43,19 @@ print("Zeros Array:\n",z)
 #Accessing elements
 print("Element at row 2,column 3 =",b[2,3])
 print("Second column:\n",b[:,2])
+
+## Markdown
+
+import numpy as np
+
+#create numbers 1to24
+c=np.arange(1,25)
+print(c)
+#reshape into (2,3,4)
+c=c.reshape(2,3,4)
+print("3D Array:\n",c)
+#print its shape
+print("Shape:",c.shape)
+#Access specific element
+print("Element at [1,2,3]:",c[1,2,3])
+
